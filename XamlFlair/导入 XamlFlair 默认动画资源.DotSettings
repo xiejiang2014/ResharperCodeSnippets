@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Shortcut/@EntryValue">XamlFlair</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Description/@EntryValue">导入 XamlFlair 默认动画资源</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Text/@EntryValue">&lt;Application.Resources&gt;&#xD;
+    &lt;ResourceDictionary&gt;&#xD;
+        &lt;!--  导入 XamlFlair 默认动画资源  --&gt;&#xD;
+        &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
+            &lt;ResourceDictionary&#xD;
+                Source = "pack://application:,,,/XamlFlair.WPF;component/DefaultAnimations.xaml" /&gt;&#xD;
+        &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
+    &lt;/ResourceDictionary&gt;&#xD;
+&lt;/Application.Resources&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F78262080296245AAE3B10AFEDAC393/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>
