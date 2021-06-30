@@ -3,6 +3,11 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Shortcut/@EntryValue">prism</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Description/@EntryValue">prism导航接口实现</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Text/@EntryValue">#region INavigationAware Prism 导航&#xD;
+
+/// &lt;summary&gt;&#xD;
+/// 导航日志&#xD;
+/// &lt;/summary&gt;
+IRegionNavigationJournal _journal;&#xD;
 &#xD;
 /// &lt;summary&gt;&#xD;
 /// 即将从其它页面导航到当前页时触发.&#xD;
@@ -25,7 +30,7 @@ public bool IsNavigationTarget(NavigationContext navigationContext)&#xD;
 /// &lt;param name="navigationContext"&gt;&lt;/param&gt;&#xD;
 public void OnNavigatedTo(NavigationContext navigationContext)&#xD;
 {&#xD;
-&#xD;
+	_journal = navigationContext.NavigationService.Journal;&#xD;
 }&#xD;
 &#xD;
 /// &lt;summary&gt;&#xD;

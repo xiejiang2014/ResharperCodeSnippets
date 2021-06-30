@@ -1,0 +1,55 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Shortcut/@EntryValue">wpfEventTrigger</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Description/@EntryValue">鼠标进出事件触发器模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Text/@EntryValue">通过事件触发器播放动画,非模版或非样式中可以直接使用
+&lt;UserControl.Triggers&gt;
+    &lt;EventTrigger RoutedEvent="MouseEnter"&gt;
+        &lt;BeginStoryboard&gt;
+            &lt;Storyboard&gt;
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="1"
+                    Duration="0:0:0.5" /&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="1"
+                    Duration="0:0:0.5" /&gt;
+            &lt;/Storyboard&gt;
+        &lt;/BeginStoryboard&gt;
+    &lt;/EventTrigger&gt;
+    &lt;EventTrigger RoutedEvent="MouseLeave"&gt;
+        &lt;BeginStoryboard&gt;
+            &lt;Storyboard&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="0"
+                    Duration="0:0:0.5" /&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="0"
+                    Duration="0:0:0.5" /&gt;
+            &lt;/Storyboard&gt;
+        &lt;/BeginStoryboard&gt;
+    &lt;/EventTrigger&gt;
+&lt;/UserControl.Triggers&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>
