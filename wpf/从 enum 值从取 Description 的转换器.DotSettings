@@ -1,0 +1,38 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Shortcut/@EntryValue">EnumToDescriptionConverter</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Description/@EntryValue">从 enum 值从取 Description 的转换器</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// 从 enum 值从取 Description 的转换器&#xD;
+/// &lt;/summary&gt;&#xD;
+class EnumToDescriptionConverter : IValueConverter&#xD;
+{&#xD;
+    public object Convert(object      value,&#xD;
+                            Type        targetType,&#xD;
+                            object      parameter,&#xD;
+                            CultureInfo culture&#xD;
+    )&#xD;
+    {&#xD;
+        if (value is null)&#xD;
+        {&#xD;
+            throw new ArgumentNullException(nameof(value));&#xD;
+        }&#xD;
+&#xD;
+        return ((LineModes) value).GetDescription();&#xD;
+    }&#xD;
+&#xD;
+    public object ConvertBack(object      value,&#xD;
+                                Type        targetType,&#xD;
+                                object      parameter,&#xD;
+                                CultureInfo culture&#xD;
+    )&#xD;
+    {&#xD;
+        throw new NotImplementedException();&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FB591A9AC651D64E9BDB2EE8B3A05432/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String></wpf:ResourceDictionary>
