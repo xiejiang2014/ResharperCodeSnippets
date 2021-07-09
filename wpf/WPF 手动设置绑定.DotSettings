@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Shortcut/@EntryValue">wpf bind</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Description/@EntryValue">wpf 手动设置绑定</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Text/@EntryValue">var binding = new Binding&#xD;
+            {&#xD;
+                Path   = new PropertyPath("属性所在类型.依赖属性名称"),&#xD;
+                Source = this,&#xD;
+				Converter = 转换器实例,&#xD;
+				Mode   = BindingMode.绑定模式,&#xD;
+            };&#xD;
+FrameworkElement对象.SetBinding(属性所在类型.依赖属性名称Property, binding);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String></wpf:ResourceDictionary>
