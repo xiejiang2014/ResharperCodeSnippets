@@ -1,0 +1,20 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Shortcut/@EntryValue">wpf</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Description/@EntryValue">新建 DelegateCommand 属性</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Text/@EntryValue">private DelegateCommand _$StartTest$Command;&#xD;
+public DelegateCommand $StartTest$Command =&gt; _$StartTest$Command ??= new DelegateCommand($StartTest$);&#xD;
+&#xD;
+private void $StartTest$()&#xD;
+{&#xD;
+    throw new System.NotImplementedException();&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Field/=StartTest/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Field/=StartTest/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Field/=StartTest/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
