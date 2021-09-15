@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Shortcut/@EntryValue">wpf bind</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Shortcut/@EntryValue">WpfCSharpBind</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Description/@EntryValue">wpf 手动设置绑定</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C9C0EC853E9B447A4C5F2C895AC3ACD/Text/@EntryValue">var binding = new Binding&#xD;
             {&#xD;

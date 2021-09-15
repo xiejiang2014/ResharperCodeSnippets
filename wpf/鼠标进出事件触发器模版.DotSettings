@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Shortcut/@EntryValue">wpfEventTrigger</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Shortcut/@EntryValue">WpfEventTrigger</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Description/@EntryValue">鼠标进出事件触发器模版</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Text/@EntryValue">通过事件触发器播放动画,非模版或非样式中可以直接使用
 &lt;UserControl.Triggers&gt;
@@ -50,6 +50,7 @@
 &lt;/UserControl.Triggers&gt;</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Categories/=Imported_00202021_002F8_002F26/@EntryIndexedValue">Imported 2021/8/26</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>

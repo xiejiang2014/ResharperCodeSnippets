@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Shortcut/@EntryValue">BehaviorsInvokeCommandAction</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Shortcut/@EntryValue">WpfBehaviorsInvokeCommandAction</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Description/@EntryValue">使用 XamlBehaviorsWpf 进行事件至命令的转换</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Text/@EntryValue">&lt;behaviors:Interaction.Triggers&gt;&#xD;
     &lt;behaviors:EventTrigger EventName="事件名称" SourceObject="{Binding 来源}"&gt;&#xD;

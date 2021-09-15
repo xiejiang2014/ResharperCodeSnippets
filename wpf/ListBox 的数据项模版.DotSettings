@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Shortcut/@EntryValue">WpfListBox.ItemTemplate</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Description/@EntryValue">ListBox 的数据项模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Text/@EntryValue">&lt;ListBox.ItemTemplate&gt;&#xD;
+    &lt;DataTemplate DataType="ViewModel"&gt;&#xD;
+&#xD;
+    &lt;/DataTemplate&gt;&#xD;
+&lt;/ListBox.ItemTemplate&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>

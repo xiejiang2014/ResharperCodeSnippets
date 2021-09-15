@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Shortcut/@EntryValue">wpf</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Shortcut/@EntryValue">WpfNewDelegateCommand</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Description/@EntryValue">新建 DelegateCommand 属性</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF5EA2F5A6F9DE4297E561C84A422ED2/Text/@EntryValue">private DelegateCommand _$StartTest$Command;&#xD;
 public DelegateCommand $StartTest$Command =&gt; _$StartTest$Command ??= new DelegateCommand($StartTest$);&#xD;
