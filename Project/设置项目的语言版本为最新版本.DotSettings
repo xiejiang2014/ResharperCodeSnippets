@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Shortcut/@EntryValue">ProjectLangVersion</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Description/@EntryValue">设置项目的语言版本为最新版本</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Text/@EntryValue">&lt;LangVersion&gt;latest&lt;/LangVersion&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9790BF68FA18446983998AB3E75DA9E/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>
