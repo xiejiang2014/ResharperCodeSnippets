@@ -1,0 +1,92 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Shortcut/@EntryValue">PrismXmlns</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Description/@EntryValue">导入命名空间</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Text/@EntryValue">xmlns:prism="http://prismlibrary.com/"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4A892C29B63A944DA27491D1DD9985C6/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Shortcut/@EntryValue">prism</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Description/@EntryValue">prism 设置Region DataContext </s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Text/@EntryValue">prism:RegionManager.RegionContext</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4F4BB529C7EDEB48B926C2A1DE62247D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Shortcut/@EntryValue">prism</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Description/@EntryValue">prism导航接口实现</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Text/@EntryValue">#region INavigationAware Prism 导航&#xD;
+
+/// &lt;summary&gt;&#xD;
+/// 导航日志&#xD;
+/// &lt;/summary&gt;
+IRegionNavigationJournal _journal;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// 即将从其它页面导航到当前页时触发.&#xD;
+/// 返回 true 表示重用已有实例;false 则创建新的实例.&#xD;
+/// 注意&#xD;
+/// 1:IRegionMemberLifetime 接口中的 KeepAlive 属性的优先级大于此方法的返回值.&#xD;
+///   如果 IRegionMemberLifetime.KeepAlive 为 false,那么这里返回 true 也无法重用.&#xD;
+/// 2:将空的区域导航到当前页时,不触发此方法&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;param name="navigationContext"&gt;&lt;/param&gt;&#xD;
+/// &lt;returns&gt;&lt;/returns&gt;&#xD;
+public bool IsNavigationTarget(NavigationContext navigationContext)&#xD;
+{&#xD;
+    return true;&#xD;
+}&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// 导航到当前页时触发&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;param name="navigationContext"&gt;&lt;/param&gt;&#xD;
+public void OnNavigatedTo(NavigationContext navigationContext)&#xD;
+{&#xD;
+	_journal = navigationContext.NavigationService.Journal;&#xD;
+}&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// 从当前页面导航到其它页面时触发,通常进行保存当前页的数据等操作&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;param name="navigationContext"&gt;&lt;/param&gt;&#xD;
+public void OnNavigatedFrom(NavigationContext navigationContext)&#xD;
+{&#xD;
+}&#xD;
+&#xD;
+#endregion</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6564F23C6A540A44A84C36DA33BD5C77/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Shortcut/@EntryValue">prismregion</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Description/@EntryValue">设为prism区域</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Text/@EntryValue">prism:RegionManager.RegionName="$ContentRegion$"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Field/=ContentRegion/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FF68447460F0840BB1BC2EBFD29342C/Field/=ContentRegion/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Shortcut/@EntryValue">PrismViewModelLocator</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Description/@EntryValue">设置view为自动选择ViewModel</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Text/@EntryValue">prism:ViewModelLocator.AutoWireViewModel="True"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4FE0F43A180964486F9E9032868AD70/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>

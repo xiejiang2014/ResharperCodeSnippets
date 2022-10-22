@@ -1,0 +1,266 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Shortcut/@EntryValue">WpfBehaviors</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Description/@EntryValue">引入 XamlBehaviorsWpf</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Text/@EntryValue">xmlns:behaviors="http://schemas.microsoft.com/xaml/behaviors"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC9AE7C0D2941642B56A98395A68FAF7/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Shortcut/@EntryValue">WpfBehaviorsInvokeCommandAction</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Description/@EntryValue">使用 XamlBehaviorsWpf 进行事件至命令的转换</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Text/@EntryValue">&lt;behaviors:Interaction.Triggers&gt;&#xD;
+    &lt;behaviors:EventTrigger EventName="事件名称" SourceObject="{Binding 来源}"&gt;&#xD;
+        &lt;behaviors:InvokeCommandAction Command="{Binding XXXCommand}" CommandParameter="{Binding 事件参数属性路径}" /&gt;&#xD;
+    &lt;/behaviors:EventTrigger&gt;&#xD;
+&lt;/behaviors:Interaction.Triggers&gt;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4AD7B119FBE0A41933F38F92ACCE321/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Shortcut/@EntryValue">WpfDesignInstance</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Description/@EntryValue">设置设计时数据上下文</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Text/@EntryValue">d:DataContext="{d:DesignInstance $containingType$ViewModel}"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Categories/=Imported_00202021_002F8_002F26/@EntryIndexedValue">Imported 2021/8/26</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Field/=containingType/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Field/=containingType/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Field/=containingType/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9703A9F00AAD1545B64FF80368C0EA45/Field/=containingType/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Shortcut/@EntryValue">WpfEnumToObjectDataProvider</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Description/@EntryValue">Enum 转数据集</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Text/@EntryValue">&lt;!-- 将一个 Enum 转变成一个数据集,供列表等控件进行绑定 --&gt;&#xD;
+&lt;!-- 绑定的方式是 --&gt;&#xD;
+&lt;!-- ItemsSource = "{Binding Source={StaticResource  DataFrom枚举类型}}" --&gt;&#xD;
+&lt;ObjectDataProvider x:Key="DataFrom枚举类型" MethodName="GetValues"&#xD;
+                    ObjectType="{x:Type System:Enum}"&gt;&#xD;
+    &lt;ObjectDataProvider.MethodParameters&gt;&#xD;
+        &lt;x:Type TypeName="枚举类型"/&gt;&#xD;
+    &lt;/ObjectDataProvider.MethodParameters&gt;&#xD;
+&lt;/ObjectDataProvider&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3D89C119F89844C93D8605BD514CBE5/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Shortcut/@EntryValue">WpfEventTrigger</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Description/@EntryValue">鼠标进出事件改变背景色模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Text/@EntryValue">通过事件触发器播放动画,非模版或非样式中可以直接使用
+注意使用此功能必须保证目标空间的 Background 是一个 SolidColorBrush
+&lt;UserControl.Triggers&gt;
+    &lt;EventTrigger RoutedEvent="MouseEnter"&gt;&#xD;
+        &lt;BeginStoryboard&gt;&#xD;
+            &lt;Storyboard&gt;&#xD;
+                &lt;ColorAnimation&#xD;
+                    AccelerationRatio="0.10"&#xD;
+                    DecelerationRatio="0.25"&#xD;
+                    Storyboard.TargetName="目标控件名称"&#xD;
+                    Storyboard.TargetProperty="(UserControl.Background).(SolidColorBrush.Color)"&#xD;
+                    To="颜色值"&#xD;
+                    Duration="0:0:0.2" /&gt;&#xD;
+&#xD;
+            &lt;/Storyboard&gt;&#xD;
+        &lt;/BeginStoryboard&gt;&#xD;
+    &lt;/EventTrigger&gt;&#xD;
+    &lt;EventTrigger RoutedEvent="MouseLeave"&gt;&#xD;
+        &lt;BeginStoryboard&gt;&#xD;
+            &lt;Storyboard&gt;&#xD;
+&#xD;
+                &lt;ColorAnimation&#xD;
+                    AccelerationRatio="0.10"&#xD;
+                    DecelerationRatio="0.25"&#xD;
+                    Storyboard.TargetName="目标控件名称"&#xD;
+                    Storyboard.TargetProperty="(UserControl.Background).(SolidColorBrush.Color)"&#xD;
+                    To="颜色值"&#xD;
+                    Duration="0:0:0.2" /&gt;&#xD;
+&#xD;
+            &lt;/Storyboard&gt;&#xD;
+        &lt;/BeginStoryboard&gt;&#xD;
+    &lt;/EventTrigger&gt;
+&lt;/UserControl.Triggers&gt;
+
+
+
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=34629BA97C03E24184E6E9BD46688299/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Shortcut/@EntryValue">WpfEventTrigger</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Description/@EntryValue">鼠标进出事件触发器模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Text/@EntryValue">通过事件触发器播放动画,非模版或非样式中可以直接使用
+&lt;UserControl.Triggers&gt;
+    &lt;EventTrigger RoutedEvent="MouseEnter"&gt;
+        &lt;BeginStoryboard&gt;
+            &lt;Storyboard&gt;
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="1"
+                    Duration="0:0:0.5" /&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="1"
+                    Duration="0:0:0.5" /&gt;
+            &lt;/Storyboard&gt;
+        &lt;/BeginStoryboard&gt;
+    &lt;/EventTrigger&gt;
+    &lt;EventTrigger RoutedEvent="MouseLeave"&gt;
+        &lt;BeginStoryboard&gt;
+            &lt;Storyboard&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="0"
+                    Duration="0:0:0.5" /&gt;
+
+                &lt;DoubleAnimation
+                    AccelerationRatio="0.10"
+                    DecelerationRatio="0.25"
+                    Storyboard.TargetName="目标控件名称"
+                    Storyboard.TargetProperty="(依赖属性,如Button.Opacity)"
+                    To="0"
+                    Duration="0:0:0.5" /&gt;
+            &lt;/Storyboard&gt;
+        &lt;/BeginStoryboard&gt;
+    &lt;/EventTrigger&gt;
+&lt;/UserControl.Triggers&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Categories/=Imported_00202021_002F8_002F26/@EntryIndexedValue">Imported 2021/8/26</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=125A11C1DCCBEE47ABEC6163E4A7EF19/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Shortcut/@EntryValue">WpfGridColumnDefinitions</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Description/@EntryValue">Grid 定义三个列</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Text/@EntryValue">&lt;Grid.ColumnDefinitions&gt;&#xD;
+    &lt;ColumnDefinition Width="Auto" /&gt;&#xD;
+    &lt;ColumnDefinition Width="Auto" /&gt;&#xD;
+    &lt;ColumnDefinition Width="Auto" /&gt;&#xD;
+&lt;/Grid.ColumnDefinitions&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17257D9AB7CC2841A6FBCC5B18F2AD77/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Shortcut/@EntryValue">WpfGridRowDefinitions</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Description/@EntryValue">Grid 定义三个行</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Text/@EntryValue">&lt;Grid.RowDefinitions&gt;&#xD;
+    &lt;RowDefinition Height="Auto" /&gt;&#xD;
+    &lt;RowDefinition Height="Auto" /&gt;&#xD;
+    &lt;RowDefinition Height="Auto" /&gt;&#xD;
+&lt;/Grid.RowDefinitions&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6FC4C9CA67B56E49A55F1464B3905293/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Shortcut/@EntryValue">WpfListBox.ItemTemplate</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Description/@EntryValue">ListBox 的数据项模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Text/@EntryValue">&lt;ListBox.ItemTemplate&gt;&#xD;
+    &lt;DataTemplate DataType="ViewModel"&gt;&#xD;
+&#xD;
+    &lt;/DataTemplate&gt;&#xD;
+&lt;/ListBox.ItemTemplate&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C839F06B49A2741BA4C048C2D2CB58B/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Shortcut/@EntryValue">WpfMahCornerRadius</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Description/@EntryValue">mah 控件圆角</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Text/@EntryValue">mah:ControlsHelper.CornerRadius</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=774D9E9CE19D2848B71A9AB70A05318E/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Shortcut/@EntryValue">WpfPathIcon</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Description/@EntryValue">wpf 路径图标</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Text/@EntryValue">&lt;Path&#xD;
+    Width="40"&#xD;
+    Height="40"&#xD;
+    Margin="0,0,0,0"&#xD;
+    Data=""&#xD;
+    Fill="White"&#xD;
+    Stretch="Uniform" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9096003249F95444B67A808CE5A86D02/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Shortcut/@EntryValue">WpfScrollViewer</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Description/@EntryValue">平滑滚动</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Text/@EntryValue">ScrollViewer.CanContentScroll="False"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2C36AEFCE0185F42B5A62938255B9ABF/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Shortcut/@EntryValue">WpfXmlnsSys</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Description/@EntryValue">导入system</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Text/@EntryValue">xmlns:sys="clr-namespace:System;assembly=mscorlib"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7054E454F28754DBB3D3FC543068384/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Shortcut/@EntryValue">ListBox.ItemContainerStyle</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Description/@EntryValue">设置 listbox 的项目容器模版</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Text/@EntryValue">&lt;ListBox.ItemContainerStyle&gt;&#xD;
+    &lt;Style BasedOn="{StaticResource {x:Type ListBoxItem}}" TargetType="{x:Type ListBoxItem}"&gt;&#xD;
+        &lt;Setter Property="Template"&gt;&#xD;
+            &lt;ControlTemplate TargetType="{x:Type ListBoxItem}"&gt;&#xD;
+&#xD;
+            &lt;/ControlTemplate&gt;&#xD;
+        &lt;/Setter&gt;&#xD;
+    &lt;/Style&gt;&#xD;
+&lt;/ListBox.ItemContainerStyle&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Categories/=Imported_00202022_002F10_002F7/@EntryIndexedValue">Imported 2022/10/7</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F92F2A928A5394F9B1DC1A6F4B20377/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>
